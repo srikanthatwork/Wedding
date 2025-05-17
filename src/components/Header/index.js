@@ -84,10 +84,8 @@ const Header = () => {
                 <strong>Vlack Solutions Pvt Ltd</strong>
               </div>
             </div>
-            <div style={{marginBottom:"50px"}} className="">
-              {/* <div className="col-2"> */}
+            <div className="mt-0  flex justify-center items-center" >
               <MobileMenu />
-              {/* </div> */}
             </div>
           </div>
         </div>
