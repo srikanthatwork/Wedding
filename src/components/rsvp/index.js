@@ -9,23 +9,12 @@ class Rsvp extends Component {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h2
-                style={{
-                  textAlign: "center",
-                  marginBottom: "20px",
-                  color: "#fff",
-                  fontSize: "2.5rem",
-                  height: "700px",
-                  paddingTop: "40px",
-                }}
-              >
-                We Invites You to Join Us
-              </h2>
+              <h2 className="rsvp-title">We Invites You to Join Us</h2>
               <div className="video-wrapper">
                 <video
                   className="responsive-video"
                   autoPlay
-                  muted
+                 
                   playsInline
                   loop
                   controls
