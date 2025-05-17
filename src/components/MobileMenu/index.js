@@ -26,8 +26,8 @@ export default class MobileMenu extends Component {
     const { isMenuShow, isOpen } = this.state;
 
     return (
-      <div  >
-        <div className={`mobileMenu ${isMenuShow ? "show" : ""}`} >
+      <div>
+        <div className={`mobileMenu ${isMenuShow ? "show" : ""}`}>
           <div className="close" onClick={this.menuHandler}>
             <i className="fa fa-close"></i>
           </div>
@@ -39,6 +39,7 @@ export default class MobileMenu extends Component {
               alt="logo"
               className="vlack-logo"
             />
+        
             {/* </div> */}
             <h2>
               <Link to="/home">
@@ -54,12 +55,7 @@ export default class MobileMenu extends Component {
             </li>
             <Collapse isOpen={isOpen}>
               <Card>
-                {/* <CardBody>
-                                    <li><Link to='/'>Home Style 1</Link></li>
-                                    <li><Link to='/home2'>Home Style 2</Link></li>
-                                    <li><Link to='/home3'>Home Style 3</Link></li>
-                                    <li><Link to='/home4'>Home Style 4</Link></li>
-                                </CardBody> */}
+               
               </Card>
             </Collapse>
             <li>
