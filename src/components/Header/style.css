@@ -14,9 +14,13 @@
   width: 100%;
   z-index: 99;
   background: rgba(255, 255, 255, 0.06);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-  width: 100%;
+  /* background-color: red; */
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
 .header ul li a {
   color: #fff;
   text-decoration: none;
@@ -26,11 +30,6 @@
 }
 .logo {
   margin-top: 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.header {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -62,9 +61,6 @@
     font-size: 20px;
   }
 }
-
-
-
 
 /* .logo {
   display: flex;

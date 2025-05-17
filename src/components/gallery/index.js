@@ -37,7 +37,7 @@ const Gallery = (props) => {
 
   return (
     <div id="gallery" className="Gallery-section section-padding pb-70">
-      <Sectiontitle section={"Our Gellary"} />
+      <Sectiontitle section={"Our Gallery"} />
       <div className="container">
         <div className="row">
           <ResponsiveMasonry

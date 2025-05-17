@@ -74,7 +74,7 @@ const People = (props) => {
                         </div> */}
                       </div>
                       <div className="person-content">
-                        <h3>Mr Chandra Sekhar</h3>
+                        <h3>Mr.Chandra Sekhar</h3>
                         <span>Father</span>
                       </div>
                     </div>
@@ -115,7 +115,7 @@ const People = (props) => {
                         <img src={bride1} alt="" />
                       </div>
                       <div className="person-content">
-                        <h3>Mr Bhargav</h3>
+                        <h3>Mr.Bhargav</h3>
                         <span> Brother</span>
                       </div>
                     </div>
@@ -145,7 +145,7 @@ const People = (props) => {
                         </div>
                       </div>
                       <div className="person-content">
-                        <h3> Miss Srilakshmi</h3>
+                        <h3> Mrs.Srilakshmi</h3>
                         <span>Mother</span>
                       </div>
                     </div>

@@ -10,7 +10,7 @@ const Couple = () => {
   return (
     <div id="couple" className="about-wrap">
       <div className="couple-area section-padding pb-70">
-        <Sectiontitle section={"Happy Cuple"} />
+        <Sectiontitle section={"Happy Couple"} />
         <div className="container">
           <div className="couple-wrap">
             <div className="row">
@@ -23,7 +23,7 @@ const Couple = () => {
                     <div className="couple-content">
                       <h3>NAGA SRAVYA</h3>
                       <p>
-                        Hello! My name is Naga Sravya. I am a Certified Medical
+                        Hello! My name is Naga Sravya. I am a Certified Senior  Medical
                         Coder and a Bachelor of Pharmacy (BPharm) graduate,
                         combining expertise in healthcare documentation and
                         pharmaceutical sciences.
