@@ -6,7 +6,7 @@ const PreviewHero = () => {
             <div className="container">
                   <div className="slide-content">
                       <div className="slide-subtitle">
-                          <h4>WERE GETTING MARRIED</h4>
+                          <h4>WE'RE GETTING MARRIED</h4>
                       </div>
                       <div className="slide-title">
                           <h2>Save Our Date</h2>

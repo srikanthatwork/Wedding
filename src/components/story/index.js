@@ -119,7 +119,7 @@ const Story = () => {
                     <p>
                       A promise sealed with love and excitement for the future.
                       Our engagement was a celebration of everything we had
-                      become — and everything we were about to build together.
+                      become — and everything we we're about to build together.
                       Surrounded by joy, love, and support, we stepped into the
                       next chapter of our journey.
                     </p>
