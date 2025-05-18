@@ -76,9 +76,9 @@ export default class MobileMenu extends Component {
             <li>
               <AnchorLink href="#rsvp">Invitation</AnchorLink>
             </li>
-            <li>
+            {/* <li>
               <Link to="/blog">Blog</Link>
-            </li>
+            </li> */}
             {/* <li>
               <Link to="/Blog-details">Blog Details</Link>
             </li> */}
