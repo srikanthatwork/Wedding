@@ -18,7 +18,7 @@ const Welcome = () => {
               </p>
               <div
                 className="btn"
-                onClick={() => window.open("/files/rsvp.pdf")}
+                onClick={() => window.open("/files/Moparthi's_invitation.docx")}
               >
                 <a href="/files/Moparthi's_wedding invitation" download>
                   Invitation
