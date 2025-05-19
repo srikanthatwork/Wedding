@@ -124,7 +124,7 @@ const People = (props) => {
                     <div className="person-wrap">
                       <div className="person-img">
                         <img src={bride2} alt="" />
-                        <div className="social-list">
+                        {/* <div className="social-list">
                           <ul>
                             <li>
                               <Link to="/">
@@ -142,7 +142,7 @@ const People = (props) => {
                               </Link>
                             </li>
                           </ul>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="person-content">
                         <h3> Mrs.Srilakshmi</h3>
@@ -160,7 +160,7 @@ const People = (props) => {
                     <div className="person-wrap">
                       <div className="person-img">
                         <img src={bride3} alt="" />
-                        <div className="social-list">
+                        {/* <div className="social-list">
                           <ul>
                             <li>
                               <Link to="/">
@@ -178,12 +178,12 @@ const People = (props) => {
                               </Link>
                             </li>
                           </ul>
-                        </div>
+                        </div> */}
                       </div>
-                      <div className="person-content">
+                      {/* <div className="person-content">
                         <h3>Mr Abraham</h3>
                         <span>Best Friend</span>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
