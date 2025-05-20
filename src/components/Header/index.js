@@ -133,7 +133,7 @@ const Header = () => {
             alt="logo"
             className="vlack-logo"
           />
-          <strong>Vlack Solutions Pvt Ltd</strong>
+          {/* <strong>Vlack Solutions Pvt Ltd</strong> */}
         </div>
 
         {/* Mobile Menu */}
