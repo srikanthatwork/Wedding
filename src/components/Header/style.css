@@ -1,3 +1,4 @@
+
 .header ul {
   list-style: none;
   display: flex;
@@ -9,18 +10,40 @@
   position: relative;
 }
 .header {
-  background: transparent;
+  /* background: transparent;
   position: absolute;
   width: 100%;
   z-index: 99;
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.06); */
   /* background-color: red; */
   /* width: 100%; */
-  display: flex;
+  /* display: flex;
   justify-content: space-around;
+  align-items: center; */
+  background: rgba(255, 255, 255, 0.06);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  background: transparent;
+ 
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  gap: 5px;
+  width: 100%;
+  padding: 0 15px;
+}
 .header ul li a {
   color: #fff;
   text-decoration: none;
@@ -29,11 +52,23 @@
   color: #1e7b67;
 }
 .logo {
-  margin-top: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  width: auto;
 }
+.logo-text {
+  font-size: 32px;
+  font-family: "Great Vibes", cursive;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+
 
 .header-menu {
   display: flex;
@@ -62,12 +97,7 @@
   }
 }
 
-/* .logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 6px;
-} */
+
 
 .logo h2 span {
   color: #fff;
